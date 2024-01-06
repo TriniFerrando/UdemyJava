@@ -97,6 +97,8 @@ public class ClaseMath {
         System.out.println("Color = " + colores[(int) randomColores]); //imprime algun color al azar
 
 
+        //ir a la carpeta Random Objeto que sigue
+
 
     }
 }
