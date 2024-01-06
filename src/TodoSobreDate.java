@@ -9,6 +9,9 @@ public class TodoSobreDate {
         SimpleDateFormat df = new SimpleDateFormat("dd-mm-yyyy");
         String fechaStr = df.format(fecha);
         System.out.println("fechaStr = " + fechaStr);
-   
 
+        long horaActualMiliSeg = fecha.getTime(); //método .getTime()
+        System.out.println("horaActualMiliSeg = " + horaActualMiliSeg);
+
+    }
 }
